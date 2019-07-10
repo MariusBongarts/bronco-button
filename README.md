@@ -4,23 +4,28 @@
 
 ## ➤ bronco-button
 
-Allow users to take actions, and make choices, with a single tap.
+Modern button
 
 ### Properties
 
-| Property        | Type      | Default | Description                                   |
-|-----------------|-----------|---------|-----------------------------------------------|
-| `outline`       | `boolean` | false   | Makes the button outlined                     |
-| `outlineEffect` | `boolean` | false   | Enabled the outline effect after clicking   * |
+| Property        | Type      | Default | Description                               |
+|-----------------|-----------|---------|-------------------------------------------|
+| `outline`       | `boolean` | false   | Makes the button outlined                 |
+| `outlineEffect` | `boolean` | false   | Enables the outline effect after clicking |
 
 ### CSS Custom Properties
 
-| Property                  | Description                   |
-|---------------------------|-------------------------------|
-| `--bg-color`              | Background color              |
-| `--bg-color-hover`        | Background color when hovered |
-| `--button-letter-spacing` | Letter spacing                |
-| `--primary-color-shadow`  | Shadow color when focused     |
+| Property                                         | Description                   |
+|--------------------------------------------------|-------------------------------|
+| `---margin`                                      | Margin of button              |
+| `--bg-color`                                     | Background color              |
+| `--bg-color-hover`                               | Background color when hovered |
+| `--border-radius`                                | Border radius                 |
+| `--button-color-shadow- Shadow color when not focused` |                               |
+| `--button-color-shadow-focus`                    | Shadow color when focused     |
+| `--color`                                        | Text color                    |
+| `--height`                                       | Height of button              |
+| `--width`                                        | Width of button               |
 
 ### Slots
 
