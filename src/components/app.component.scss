@@ -1,6 +1,7 @@
 @import "../variables.scss";
 
 :host {
+  --color: white;
   --bg-color: var(--primary-color);
   --bg-color-hover: var(--primary-color-hover);
   --bg-color-focus-hover: white;
@@ -12,7 +13,6 @@
   --border-radius: 90px;
   --height: 45px;
   --width: 140px;
-  --color: white;
   --margin: 10px;
 }
 
