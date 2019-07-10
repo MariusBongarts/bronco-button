@@ -1,7 +1,7 @@
 {
-  "name": "@marius/starter",
+  "name": "@marius/broncobutton",
   "version": "1.0.0",
-  "description": "LitElement Starter Kit",
+  "description": "Leightweight button",
   "private": true,
   "main": "index.js",
   "scripts": {
