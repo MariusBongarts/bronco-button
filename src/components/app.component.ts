@@ -5,6 +5,7 @@ const componentCSS = require('./app.component.scss');
 
 /**
  * Modern button
+ * @event clicked - Dispatches when button is clicked.
  * @slot - Default content.
  * @cssprop --bg-color - Background color
  * @cssprop --bg-color-focus - Background color when focused

@@ -23,6 +23,12 @@ Modern button
 | `outline`       | `boolean` | false   | Makes the button outlined                 |
 | `outlineEffect` | `boolean` | false   | Enables the outline effect after clicking |
 
+### Events
+
+| Event     | Description                        |
+|-----------|------------------------------------|
+| `clicked` | Dispatches when button is clicked. |
+
 ### CSS Custom Properties
 
 | Property                      | Description                               |
