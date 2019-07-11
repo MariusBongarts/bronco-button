@@ -979,6 +979,21 @@
 
 // tslint:disable-next-line:no-any decorator
 
+/**
+ * A property decorator which creates a LitElement property which reflects a
+ * corresponding attribute value. A `PropertyDeclaration` may optionally be
+ * supplied to configure property features.
+ *
+ * @ExportDecoratedItems
+ */
+
+/**
+ * A property decorator that converts a class property into a getter that
+ * executes a querySelector on the element's renderRoot.
+ *
+ * @ExportDecoratedItems
+ */
+
 // Note, this is a getter so that it's lazy. In practice, this means
 
 // stylesheets are not created until the first element instance is made.
@@ -1143,30 +1158,46 @@
 // CONCATENATED MODULE: ./src/components/app.component.ts
 
 /**
- * Allow users to take actions, and make choices, with a single tap.
+ * Modern button
  * @slot - Default content.
- * @cssprop --button-letter-spacing - Letter spacing
+ * @cssprop --color - Text color
+ * @cssprop --bg-color - Background color
+ * @cssprop --bg-color-hover - Background color when hovered
+ * @cssprop --button-color-shadow- Shadow color when not focused
+ * @cssprop --button-color-shadow-focus - Shadow color when focused
+ * @cssprop --border-radius - Border radius
+ * @cssprop --height - Height of button
+ * @cssprop --width - Width of button
+ * @cssprop ---margin - Margin of button
+ *
  */
 
 /**
-     * Allow users to take actions, and make choices, with a single tap.
+     * Modern button
      * @slot - Default content.
-     * @cssprop --button-letter-spacing - Letter spacing
+     * @cssprop --color - Text color
+     * @cssprop --bg-color - Background color
+     * @cssprop --bg-color-hover - Background color when hovered
+     * @cssprop --button-color-shadow- Shadow color when not focused
+     * @cssprop --button-color-shadow-focus - Shadow color when focused
+     * @cssprop --border-radius - Border radius
+     * @cssprop --height - Height of button
+     * @cssprop --width - Width of button
+     * @cssprop ---margin - Margin of button
+     *
      */
 
 /**
- * A property decorator which creates a LitElement property which reflects a
- * corresponding attribute value. A `PropertyDeclaration` may optionally be
- * supplied to configure property features.
- *
- * @ExportDecoratedItems
- */
+         *
+         * Makes the button outlined
+         * @type {boolean}
+         * @memberof BroncoButton
+         */
 
 /**
- * A property decorator that converts a class property into a getter that
- * executes a querySelector on the element's renderRoot.
- *
- * @ExportDecoratedItems
- */
+         * Enables the outline effect after clicking
+         * @type {boolean}
+         * @memberof BroncoButton
+         */
 
 // This callback is called once the class is otherwise fully defined

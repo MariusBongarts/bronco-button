@@ -25,9 +25,15 @@ module.exports = {
   optimization: {
     minimizer: [
       new TerserPlugin({
-        extractComments: 'all',
+        cache: true,
+        parallel: true,
+        sourceMap: true,
+        extractComments: 'all'
       }),
     ],
+    mergeDuplicateChunks: false,
+    removeEmptyChunks: false,
+    concatenateModules: true
   },
   plugins: [
     new HtmlWebpackPlugin({ template: './src/index.html' }),
