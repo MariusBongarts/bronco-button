@@ -25,17 +25,22 @@ Modern button
 
 ### CSS Custom Properties
 
-| Property                                         | Description                   |
-|--------------------------------------------------|-------------------------------|
-| `---margin`                                      | Margin of button              |
-| `--bg-color`                                     | Background color              |
-| `--bg-color-hover`                               | Background color when hovered |
-| `--border-radius`                                | Border radius                 |
-| `--button-color-shadow- Shadow color when not focused` |                               |
-| `--button-color-shadow-focus`                    | Shadow color when focused     |
-| `--color`                                        | Text color                    |
-| `--height`                                       | Height of button              |
-| `--width`                                        | Width of button               |
+| Property                      | Description                               |
+|-------------------------------|-------------------------------------------|
+| `--bg-color`                  | Background color                          |
+| `--bg-color-focus`            | Background color when focused             |
+| `--bg-color-focus-hover`      | Background color when focused and hovered |
+| `--bg-color-hover`            | Background color when hovered             |
+| `--border-radius`             | Border radius                             |
+| `--button-color-shadow`       | Shadow color when not focused             |
+| `--button-color-shadow-focus` | Shadow color when focused                 |
+| `--color`                     | text color                                |
+| `--color-focus-hover`         | text color when focused and hovered       |
+| `--height`                    | Height of button                          |
+| `--margin`                    | Margin of button                          |
+| `--min-width`                 | Width of button                           |
+| `--primary-color`             | Change primary color easily               |
+| `--primary-color-hover`       | Hover background color                    |
 
 ### Slots
 

@@ -1,20 +1,19 @@
 
 :host {
-  --primary-color: rgb(29, 202, 255);
-  --primary-color-hover: rgb(13, 183, 235);
-  --button-color-shadow-focus: var(--primary-color);
-  --button-color-shadow: rgba(0, 0, 0, 0.2);
-  --color: white;
   --bg-color: var(--primary-color);
+  --bg-color-focus: var(--primary-color);
   --bg-color-hover: var(--primary-color-hover);
   --bg-color-focus-hover: white;
-  --color-focus-hover: var(--primary-color);
-  --bg-color-focus: var(--primary-color);
   --border-radius: 90px;
+  --button-color-shadow: rgba(0, 0, 0, 0.2);
+  --button-color-shadow-focus: var(--primary-color);
+  --color: white;
+  --color-focus-hover: var(--primary-color);
   --height: 45px;
-  --min-width: 140px;
   --margin: 10px;
-  --width: 10px;
+  --min-width: 140px;
+  --primary-color: rgb(29, 202, 255);
+  --primary-color-hover: rgb(13, 183, 235);
 }
 
 button {

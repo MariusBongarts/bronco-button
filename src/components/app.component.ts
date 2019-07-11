@@ -6,15 +6,20 @@ const componentCSS = require('./app.component.scss');
 /**
  * Modern button
  * @slot - Default content.
- * @cssprop --color - Text color
  * @cssprop --bg-color - Background color
+ * @cssprop --bg-color-focus - Background color when focused
  * @cssprop --bg-color-hover - Background color when hovered
- * @cssprop --button-color-shadow- Shadow color when not focused
- * @cssprop --button-color-shadow-focus - Shadow color when focused
+ * @cssprop --bg-color-focus-hover - Background color when focused and hovered
  * @cssprop --border-radius - Border radius
+ * @cssprop --button-color-shadow - Shadow color when not focused
+ * @cssprop --button-color-shadow-focus - Shadow color when focused
+ * @cssprop --color - text color
+ * @cssprop --color-focus-hover - text color when focused and hovered
  * @cssprop --height - Height of button
- * @cssprop --width - Width of button
- * @cssprop ---margin - Margin of button
+ * @cssprop --margin - Margin of button
+ * @cssprop --min-width - Width of button
+ * @cssprop --primary-color - Change primary color easily
+ * @cssprop --primary-color-hover - Hover background color
  *
  */
 @customElement('bronco-button')
