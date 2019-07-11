@@ -1,6 +1,3 @@
-<script src="dist/main.js">
-<bronco-button>Preview</bronco-button>
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#bronco-button)
 
 ## ➤ bronco-button
