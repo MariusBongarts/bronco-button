@@ -48,13 +48,12 @@ export class BroncoButton extends LitElement {
   render() {
     return html`
           <button class='
-                                        ${this.outline ? ' outline' : ''} ${this.outlineEffect ? 'outlineEffect'
-                  : ''}
-            ' @click=${() => this.emit()}>
-                                          <span>
-                                            <slot></slot>
-                                          </span>
-                                        </button>
+            ${this.outline ? ' outline' : ''}
+            ${this.outlineEffect ? 'outlineEffect' : ''}' @click=${() => this.emit()}>
+              <span>
+                <slot></slot>
+              </span>
+            </button>
 `;
   }
 
