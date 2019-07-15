@@ -1,6 +1,8 @@
 {
   "name": "@marius/broncobutton",
   "version": "1.0.0",
+  "identifier": "bronco-button",
+  "identifier-git": "broncobutton",
   "description": "Leightweight button",
   "private": true,
   "main": "index.js",
